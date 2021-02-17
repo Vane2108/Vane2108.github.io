@@ -1,0 +1,59 @@
+body{
+	background-color: #39B8F8;
+
+}
+h2.inset {border-style: inset;}
+p{
+margin-top: 0;
+margin-bottom: 1rem; 
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1{
+	font-family: Century Gothic;
+}
+h2{
+    font-family: Century Gothic;
+}
+p {
+  
+  font-family: Century Gothic;
+  font-size: 160%;
+}
+div{
+    display: block;
+    border: 5px solid pink;
+
+}
+
+
+.container{
+	max-width: 720px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.jumbotron{
+	background-color: #BAB2CC;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+img{
+	width:30%; height:40%;margin-left: 10px;
+}
